@@ -1,0 +1,21 @@
+{
+  "name": "lessonjsminin",
+  "version": "1.0.0",
+  "description": "pure js site constructor",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "watch":"nodemon dist/bundle.js"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Olexii Skrebtsov <alex.skrebtsov1213@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
